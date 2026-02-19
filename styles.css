@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-logo{
+    width: 595.18px;
+    height: 450px;
+    margin-left: 125px;
+   
+}
+
+header{
+    margin: 44px 32px 30px  76px; 
+}
+
+.link-header{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px; 
+    color: #17233D;
+    cursor: pointer;
+    margin: 47px 32px 42px 36px;
+    
+
+}
+
+.button-header{
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border-radius: 10px;
+    border: 1px solid #4CB538;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    
+}
+
+.text{
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+h1{
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+}
+
+p{
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #17233D;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.link-learn-more{
+    width: 112px;
+    height: 220px;
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+    text-decoration: none;
+}

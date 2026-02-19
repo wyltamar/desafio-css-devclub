@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+    border: 2px solid red;
+    color: blue;
+}
+
+input::placeholder {
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+}
+
+p{
+    color: blue;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}   
+
+p::first-line {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h1::before{
+    content:"🍺";
+}
