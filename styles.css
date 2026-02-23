@@ -81,3 +81,65 @@ p{
     cursor: pointer;
     text-decoration: none;
 }
+
+/* Media Queries */
+@media screen and (max-width: 690px){ /* Estilos para dispositivos com no máximo de 690px (móveis) */
+    .link-header{
+        display: none;
+    }
+
+    .button-header{
+        width: 93px;
+        height: 31px;
+        border-radius: 6px;
+        font-size: 12px;
+        position:fixed;
+        right: 7%;
+        top:2%;
+    }
+
+    .image-logo{
+        width: 90vw;
+        height: 50vh;
+        position:fixed;
+        top: 50%;
+        right: 5%;
+
+    }
+
+    header{
+        width: 100vw;
+        height: 50%;
+        position: static;
+    }
+    
+    h1{
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-top:40px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        
+    }
+
+    p{
+        width: 270px;
+        height: 150px;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+        margin-bottom: 25px;
+        margin-left: 30px;
+    }
+
+    .link-learn-more{
+        font-size: 18px;
+        line-height: 18px;
+        display: inline-block;
+        margin-left: 110px;
+        margin-top: 10px;
+    }
+}
