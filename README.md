@@ -1,4 +1,4 @@
-<h1>Easy Shopping</h1>
+<h1 align="center">Easy Shopping</h1>
 <h3>Projeto prático do Curso FullStack <a href="https://www.devclub.com.br/">DevClub.</a></h3>
 <br>
 <div>
